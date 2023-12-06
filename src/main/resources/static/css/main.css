@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Стили для обертки */
+.center {
+    text-align: center; /* Центрирование по горизонтали */
+    padding: 20px; /* Добавьте отступы вокруг обертки */
+}
+
+/* Стили для ссылок */
+.link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px; /* Увеличьте отступы для большего размера ссылок */
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    margin: 10px; /* Увеличьте отступ между ссылками */
+    display: inline-block; /* Добавьте свойство, чтобы ссылки не переносились на новую строку */
+}
+
+/* Стили для наведения курсора на ссылки */
+.link:hover {
+    background-color: #007bff;
+    color: #fff;
+}

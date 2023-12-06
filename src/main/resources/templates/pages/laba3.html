@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../../css/laba3.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <h2>Добавить студента</h2>
+            <form id="addStudentForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name "email" required><br><br>
+
+                <label for="exam_scores">Оценка: </label>
+                <input type="text" id="exam_scores" name="exam_scores" required><br><br>
+
+                <button type="submit">Добавить студента</button>
+            </form>
+            <div id="resultMessage"></div>
+            <h2>поиск студента</h2>
+            <form id="SearchStudentForm">
+                <label for="SearchName">Имя:</label>
+                <input type="text" id="SearchName" name="SearchName" required><br><br>
+
+                <button type="submit">Поиск</button>
+            </form>
+            <div id="resultSearchMessage"></div>
+        </div>
+        <div class="right-column">
+
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/Student_Ajax.js"></script>
+
+</body>
+</html>

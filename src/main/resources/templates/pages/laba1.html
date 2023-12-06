@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>laba1-Sudoku</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/laba1.css">
+</head>
+<body>
+<div id="sudoku-container"></div>
+<!--<button id="load-sudoku">Загрузить Sudoku</button>-->
+<!--<button id="check-sudoku">Проверить Sudoku</button>-->
+<div id="result-message"></div>
+<script type="text/javascript" src="../../js/Sudoku_Ajax.js"></script> <!-- Здесь подключите ваш JavaScript файл -->
+<script>
+    window.setInterval('refresh()', 5000);
+    // Call a function every 10000 milliseconds
+    // (OR 10 seconds).
+
+    // Refresh or reload page.
+    function refresh() {
+        window.location.reload();
+    }
+</script>
+</body>
+</html>
